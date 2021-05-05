@@ -1,0 +1,11 @@
+// C:\Program Files (x86)\Steam\userdata\<Steam3 ID>\730\local\cfg
+// exec binds.txt
+
+// drop bomb
+bind v "use weapon_knife; use weapon_c4; drop; slot1"
+// toggle left/right
+bind r "toggle cl_righthand 0 1"
+// jump throw
+alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump"; bind alt "+jumpthrow"
+// Increase volume when walking
+alias +incvol "incrementvar volume 0 2 0.75; +speed"; alias -incvol "incrementvar volume 0 2 -0.2; -speed"; bind SHIFT +incvol
